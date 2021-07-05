@@ -39,7 +39,7 @@
   </div>
   <!-- todo component -->
   <div *ngIf="this.todos.length === 0; else elseBlock" class="no_todo_banner">
-    No Todos to display
+    No Diaries to display
   </div>
   <ng-template #elseBlock>
     <div *ngFor="let todo of todos; index as i" class="py-2">
