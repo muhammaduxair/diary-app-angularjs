@@ -1,6 +1,7 @@
-# FirstApp
+# Diary App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+Open Link To View App [https://diaryapp-muzair.surge.sh/](https://diaryapp-muzair.surge.sh/)
 
 ## Development server
 
