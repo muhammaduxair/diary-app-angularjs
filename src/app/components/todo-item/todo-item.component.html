@@ -1,0 +1,20 @@
+<div
+  class="{{ todo.active ? 'todo_item_box' : 'todo_item_box todo_done_box' }}"
+>
+  <span>{{ i + 1 }}</span>
+  <div class="text_box">
+    <h4>{{ todo.title }}</h4>
+    <span>
+      <p class="mb-0">{{ todo.desc }}</p>
+      <p class="mb-0">{{ todo.time }}</p>
+    </span>
+  </div>
+  <div class="bttn_box">
+    <button class="btn btn-success px-3 doneBttn" (click)="onDone()">
+      {{ todo.active ? "Done" : "Undone" }}
+    </button>
+    <button class="btn btn-danger deleteBttn" (click)="onDelete()">
+      delete
+    </button>
+  </div>
+</div>

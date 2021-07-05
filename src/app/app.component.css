@@ -1,0 +1,14 @@
+.heading1 {
+  font-size: 40px;
+  border: 4px solid #010813;
+  color: #010813;
+  border-radius: 10px;
+}
+.no_todo_banner {
+  width: 100%;
+  background-color: #f1efef;
+  padding: 20px;
+  font-style: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+}
